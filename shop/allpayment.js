@@ -1,31 +1,20 @@
 const allpayment = (prefix) => {
-return `PAYMENT BY ZEEONE OFC
-
-*🏧 BANK*
-
-1. BRI 
-	ㅁ 8881 0887 4350 47326
-2. BCA 
-	ㅁ 3901 0887 4350 47326
-3. BNI 
-	ㅁ 881 0887 4350 47326
-4. PERMATA
-	ㅁ 852 8887 4350 47326
+return `PAYMENT BY Me-Bot
 	
 *💰 E-MONEY*
 
 1. GOPAY
-	ㅁ 0887 4350 47326
+	ㅁ 0838 0434 3232
 2. OVO
-	ㅁ 0887 4350 47326
+	ㅁ 0838 0434 3232
 3. DANA
-	ㅁ 0887 4350 47326
+	ㅁ 0838 0434 3232
 	
-Semuanya atas nama RI****DI
+saya juga butuh pulsa🗿🙏
 
 *📲 PULSA*
 
-Tidak tersedia
+083804343232
 	
 Sebelum melakukan pembayaran ada baiknya anda menghubungi owner terlebih dahulu!
 `
