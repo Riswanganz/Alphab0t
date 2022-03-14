@@ -150,7 +150,7 @@ const Exif = require('./lib/exif')
 const exif = new Exif()
 require('./config')
 
-zeksApikey = 'Alphabott' //ganti pake apikey lu biar limitnya gk cepet abis 
+zeksApikey = 'iwangan' //ganti pake apikey lu biar limitnya gk cepet abis 
 ApiZeks = 'https://api.zeks.me' // regis disini klo mau dapat apikeynya
 thumbnail = setting.thumb
 pp_bot = fs.readFileSync(`image/${thumbnail}`)
@@ -185,7 +185,7 @@ typemenu = 'document'
 img = setting.img
 baper = setting.ownername
 apiku = 'https://zeeone-ofc.github.io/'
-gc_wa_lu = 'https://chat.whatsapp.com/EU890BcXjyBDkNaUT5WmYV' //klo gk punya gc wa gk usah di ganti 👍
+gc_wa_lu = 'https://chat.whatsapp.com/G7feMT0blJi6j3UvjHOyjK' //klo gk punya gc wa gk usah di ganti 👍
 targetpc = setting.ownerNumberr
 owner = targetpc
 fake = setting.fake
@@ -399,7 +399,7 @@ await alpha.updatePresence(from, Presence.composing)
 		const isBanned = banned.includes(sender)
 		if (isCmd && isBanned) return reply2(lang.benned())
 		const isVote = isGroup ? voting.includes(from) : false
-		const ratee = ["Alphabot","Alphabot","Alphabot","Alphabot","Alphabot","Alphabot","Alphabot"]
+		const ratee = ["Wanz","Wanz","Wanz","Wanz","Wanz","Wanz","Wanz"]
         const tee = ratee[Math.floor(Math.random() * ratee.length)]
         const tescuk = ["0@s.whatsapp.net"]
         const ini_mark = `0@s.whatsapp.net`
