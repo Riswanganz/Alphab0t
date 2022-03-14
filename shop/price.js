@@ -9,6 +9,7 @@ ${prefix}Aov -> List Voucher Aov
 ${prefix}Sausage -> List Candy Sausage
 ${prefix}Lol -> List Wc Lol
 ${prefix}Valo -> List Vp Valorant
+INI FITUR CUMA PEMANIS SAYA GA JUAL UANG GAME, TAPI KALAU ANDA MAU TARO JUALAN ANDA KE SANA BOLEH, FREE
 
 Untuk melihat listnya ketik ${prefix}list game 
 Ex :
