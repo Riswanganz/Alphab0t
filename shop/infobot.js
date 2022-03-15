@@ -26,9 +26,8 @@ return `ℒ⃝👾 *B O T  S T A T I S T I C*
 
 ℒ⃝👨‍💻 *C O N N E C T  W I T H  M E*
 
-⛎ Api : api-alphabot.herokuapp.com
+⛎ My Web : https://mynamelink.blogspot.com
 ♈ YouTube : https://youtube.com/channel/UC4mrtQKsM0i31zFrd01OsRg
-♉ Github : zeeone-ofc.github.io
 `}
 
 exports.infobot = infobot
