@@ -2,7 +2,7 @@
 const gcbotwa = () =>{
 	return`Join Aja Semua Fitur Bot Bisa Digunakan !
 
-1. *Alphabot Support*
+1. *WANZ GROUP*
 _https://chat.whatsapp.com/G7feMT0blJi6j3UvjHOyjK_
 
 Jika ada link yang ke reset, silahkan hubungi
