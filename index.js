@@ -2122,13 +2122,13 @@ ${prefix}buylimit 10
 ${prefix}buyglimit 10
 
 NOTE : 
-- Harga Limit Perlimit adalah $100 balance`)
+- Harga Limit Perlimit adalah $10 balance`)
 break
 case 'buylimit':{
-if (!q) return reply(`Kirim perintah *${prefix}buylimit* jumlah limit yang ingin dibeli\n\nHarga 1 limit = $100 balance`)
+if (!q) return reply(`Kirim perintah *${prefix}buylimit* jumlah limit yang ingin dibeli\n\nHarga 1 limit = $10 balance`)
 if (q.includes('-')) return reply(`Jangan menggunakan -`)
 if (isNaN(q)) return reply(`Harus berupa angka`)
-let ane = Number(nebal(q) * 100)
+let ane = Number(nebal(q) * 10)
 if (getBalance(sender, balance) < ane) return reply(`Balance kamu tidak mencukupi untuk pembelian ini`)
 kurangBalance(sender, ane, balance)
 giveLimit(sender, nebal(q), limit)
@@ -2139,10 +2139,10 @@ reply(`Pembeliaan limit sebanyak ${q} berhasil
 }
 break
 case 'buyglimit':{
-if (!q)return reply(`Example : ${prefix + command} 10\n\nHarga 1 limit = $100 balance`)
+if (!q)return reply(`Example : ${prefix + command} 10\n\nHarga 1 limit = $10 balance`)
 if (q.includes('-')) return reply(`Jangan menggunakan -`)
 if (isNaN(q)) return reply(`Harus berupa angka`)
-const koinPerlimit = 100
+const koinPerlimit = 10
 const total = koinPerlimit * q
 if (getBalance(sender,balance) <= total) return reply(`maaf Balance kamu belum mencukupi. silahkan kumpulkan dan beli nanti`)
 kurangBalance(sender, total, balance)
@@ -2318,7 +2318,7 @@ const btn1 = {
 }
 
 alpha.sendMessage(from,  btn1, MessageType.buttonsMessage,{
-        caption: 'Botwea ©2K22',
+        caption: 'Botwea © By ME-BOT 2K22',
         "contextInfo": {
             text: 'hi',
             "forwardingScore": 1000000000,
@@ -2508,7 +2508,7 @@ buttons: buttonss,
 headerType: 1
 }
 alpha.sendMessage(from,  buttonMessagee, MessageType.buttonsMessage,{
-        caption: 'Botwea ©2K22',
+        caption: 'Botwea © By ME-BOT 2K22',
         "contextInfo": {
             text: 'hi',
             "forwardingScore": 1000000000,
@@ -2715,7 +2715,7 @@ case 'bcgif':{
 					for (let i of ini_ownerNumber) {
 					const vname = alpha.contacts[i] != undefined ? alpha.contacts[i].vname || alpha.contacts[i].notify : undefined
 					ini_list.push({
-					"displayName": 'Owner Alphabot',
+					"displayName": 'Owner Wanz',
 					"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname ? `${vname}` : `${alpha.user.name}`}\nORG: Creator Bot WhatsApp;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 					})
 					}
@@ -3295,7 +3295,7 @@ break
 						if (isMedia && !mek.message.videoMessage || isQuotedImage) {
 							const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
 							const media = await alpha.downloadAndSaveMediaMessage(encmedia, `./sticker/${sender}`)
-							exif.create('Created By', 'ZeeoneOfc', `stickwm_${sender}`)
+							exif.create('Created By', 'ME-BOT', `stickwm_${sender}`)
 							//ran = getRandom('.webp')
                         await ffmpeg(`./${media}`)
                             .input(media)
@@ -3322,7 +3322,7 @@ break
                     } else if ((isMedia && mek.message.videoMessage.seconds < 11 || isQuotedVideo && mek.message.extendedTextMessage.contextInfo.quotedMessage.videoMessage.seconds < 11) && args.length == 0) {
                         const encmedia = isQuotedVideo ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
                         const media = await alpha.downloadAndSaveMediaMessage(encmedia)
-                        exif.create('Created By', 'ZeeoneOfc', `stickwm_${sender}`)
+                        exif.create('Created By', 'ME-BOT', `stickwm_${sender}`)
                     //    ran = getRandom('.webp')
                         await ffmpeg(`./${media}`)
                             .inputFormat(media.split('.')[1])
@@ -4303,7 +4303,7 @@ if (!isGroup) return reply(lang.onlygc())
 					}, 2000)
 					setTimeout( () => {
 					alpha.updatePresence(from, Presence.composing) 
-					reply('```Byeee 👋```')
+					reply('```Sayonara 👋```')
 					}, 0)
 					break     
 		    case 'leave2':
@@ -6013,7 +6013,7 @@ break
 		case 'bisakah':
 		if (args.length < 1) return alpha.sendMessage(from, 'Pertanyaan nya apa?', text, {quoted: mek})
 				bisakah = q
-					const bisa =['Tentu Saja Bisa! Kamu Adalah Orang Paling beruntung','Gak Bisa','Hmm Gua Gak Tau Yaa, tanya ama bapakau','Ulangi Tod Gua Ga Paham']
+					const bisa =['Tentu Saja Bisa! Kamu Adalah Orang Paling beruntung','Gak Bisa','Hmm Gua Gak Tau Yaa, tanya ama bapakau','Ulangi, Gua Ga Paham']
 					const keh = bisa[Math.floor(Math.random() * bisa.length)]
 					alpha.sendMessage(from, 'Pertanyaan : *'+bisakah+'*\n\nJawaban : '+ keh, text, { quoted: mek })
 					await limitAdd(sender, limit)
@@ -6029,7 +6029,7 @@ break
            case 'apakah':
            if (args.length < 1) return alpha.sendMessage(from, 'Pertanyaan nya apa?', text, {quoted: mek})
            apakah = q
-					const apa =['Iya','Tidak','Bisa Jadi']
+					const apa =['Iya','Tidak','Bisa Jadi','mungkin','ko tanya gwejh']
 					const kah = apa[Math.floor(Math.random() * apa.length)]
 					alpha.sendMessage(from, 'Pertanyaan : *'+apakah+'*\n\nJawaban : '+ kah, text, { quoted: mek })
 					await limitAdd(sender, limit)
