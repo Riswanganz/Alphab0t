@@ -61,7 +61,7 @@ ${numberik}➛Speed : ${latensii.toFixed(4)} Second
 ├❒ Group_support
 └❒ Ownerbot
 
-❒ _Creator BotWea © 2K21_ ❒
+❒ _Creator BotWea © ME-BOT
 `
 }
 const convert = (prefix) => {
